@@ -36,3 +36,45 @@ a {
   font-family: 'Bad Script', cursive;
   font-size: 20px;
 }
+
+
+.headBase {
+    display: flex;
+    margin-left: 40px;
+    gap:    100px;
+}
+.hBaseT {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.baseH {
+    color: #f9faf8;
+    font-size: 48px;
+
+}
+
+.baseT {
+    color: #E5e7eb;
+    font-size: 18px;
+}
+
+.button {
+    width: 100px;
+  height: 35px;
+    background-color: #5985ff;
+    color: #E5e7eb;
+    border-radius: 10px;
+
+
+
+
+
+}
+
+img {
+    height: 300px;
+    width: 700px;
+    margin-right: 100px;
+}
