@@ -1,6 +1,6 @@
 body {
   display: flex;
-margin: 0  ;
+  margin: 0;
 }
 
 .header {
@@ -42,12 +42,11 @@ a {
   gap: 100px;
   background-color: #1f2937;
   padding-bottom: 125px;
-
 }
 .hBaseT {
   display: flex;
   flex-direction: column;
-    }
+}
 
 .baseH {
   color: #f9faf8;
@@ -56,7 +55,7 @@ a {
 
 .baseT {
   color: #e5e7eb;
-  font-size: 18px;  
+  font-size: 18px;
 }
 
 .button {
@@ -68,7 +67,6 @@ a {
   border-style: none;
   outline-style: none;
   font-family: "Bad Script", cursive;
-  
 }
 
 img {
@@ -81,15 +79,13 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 100px;
 }
-
 
 .box-dir {
   display: flex;
   gap: 20px;
 }
-
-
 
 .box {
   width: 100px;
@@ -100,7 +96,6 @@ img {
   border-radius: 15px;
   border-color: #1400c6;
 }
- 
 
 .box-text {
   display: flex;
@@ -109,8 +104,34 @@ img {
   font-size: 12px;
   max-width: 600px;
   gap: 50px;
-
 }
 .bHeader {
+  font-family: "Bad Script", cursive;
+}
+
+
+.quote {
+  background-color: #E0E0E0;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex-direction: column;
+}
+
+
+.quoteT {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Bad Script", cursive;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.auth {
+  padding-left: 500px;
+  font-size: 30px;
   font-family: "Bad Script", cursive;
 }
