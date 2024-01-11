@@ -1,6 +1,7 @@
 body {
   display: flex;
   margin: 0;
+  height: 100%;
 }
 
 .header {
@@ -133,5 +134,47 @@ img {
 .auth {
   padding-left: 500px;
   font-size: 30px;
+  font-family: "Bad Script", cursive;
+}
+
+.signUp {
+  padding-top: 100px;
+
+  display: flex;
+  justify-content: center; 
+  align-content: center;
+  padding-bottom: 100px;
+}
+
+.container {
+  background-color: #1400c6;
+  height: 100px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.signUPH {
+  color: #f9faf8;
+  font-family: "Bad Script", cursive;
+}
+
+.sub { 
+  border-radius: 10px;
+  border-style: none;
+  outline-style: none;
+  font-family: "Bad Script", cursive;
+}
+
+
+.footer { 
+  display: flex;
+  height: 60px;
+  background-color: #1f2937;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
   font-family: "Bad Script", cursive;
 }
